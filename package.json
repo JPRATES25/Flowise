@@ -33,6 +33,9 @@
         "postinstall": "husky install",
         "migration:create": "pnpm typeorm migration:create"
     },
+    "dependencies": {
+        "flowise-nodes-elevenlabs": "^0.1.0"
+    },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,json,md}": "eslint --fix"
     },
